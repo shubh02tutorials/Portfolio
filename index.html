@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <!-- ====== HEADER / NAVBAR ====== -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">MyPortfolio</div>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="menu-toggle" id="menu-toggle">
+        <i class="fas fa-bars"></i>
+      </div>
+    </nav>
+  </header>
+
+  <!-- ====== HOME SECTION ====== -->
+  <section id="home" class="home">
+    <div class="home-content">
+      <h1>Hello, I'm <span>Shubham Verma</span></h1>
+      <h3>Frontend Developer | Designer | Freelancer</h3>
+      <p>I build modern, responsive, and interactive websites to help you bring your ideas to life.</p>
+      <a href="#projects" class="btn">View My Work</a>
+    </div>
+    <div class="home-img">
+      <img src="Shubh.jpg" alt="Profile Picture">
+    </div>
+  </section>
+
+  <!-- ====== ABOUT SECTION ====== -->
+  <section id="about" class="about">
+    <div class="about-text">
+      <h2>About Me</h2>
+      <p>I am a passionate developer with expertise in creating clean and efficient code. I enjoy solving problems and continuously learning new technologies to improve my skills.</p>
+      <a href="resume.pdf" class="btn" download>Download CV</a>
+    </div>
+  </section>
+
+  <!-- ====== SKILLS SECTION ====== -->
+  <section id="skills" class="skills">
+    <h2>My Skills</h2>
+    <div class="skill-bars">
+      <div class="bar">
+        <span>HTML</span>
+        <div class="progress"><div style="width: 90%;"></div></div>
+      </div>
+      <div class="bar">
+        <span>CSS</span>
+        <div class="progress"><div style="width: 85%;"></div></div>
+      </div>
+      <div class="bar">
+        <span>JavaScript</span>
+        <div class="progress"><div style="width: 75%;"></div></div>
+      </div>
+      <div class="bar">
+        <span>React</span>
+        <div class="progress"><div style="width: 70%;"></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== PROJECTS SECTION ====== -->
+  <section id="projects" class="projects">
+    <h2>My Projects</h2>
+    <div class="project-cards">
+      <div class="card">
+        <img src="res Page 1.jpg" alt="Project 1">
+        <h3>Project One</h3>
+        <p>A responsive website built using HTML, CSS, and JavaScript.</p>
+      </div>
+      <div class="card">
+        <img src="dashboard.jpg" alt="Project 2">
+        <h3>Project Two</h3>
+        <p>Interactive dashboard built with modern frameworks.</p>
+      </div>
+      <div class="card">
+        <img src="e-commerce.jpg" alt="Project 3">
+        <h3>Project Three</h3>
+        <p>Mobile-friendly eCommerce web app design.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== CONTACT SECTION ====== -->
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </section>
+
+  <!-- ====== FOOTER ====== -->
+  <footer>
+    <p>© 2025 Your Name | All Rights Reserved</p>
+    <div class="socials">
+      <a href="#"><i class="fab fa-linkedin"></i></a>
+      <a href="#"><i class="fab fa-github"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
